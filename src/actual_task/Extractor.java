@@ -3,7 +3,7 @@ package actual_task;
 import java.util.LinkedList;
 import java.util.List;
 
-class Result {
+class Extractor {
 
     /*
      * Complete the 'extractData()' function below.

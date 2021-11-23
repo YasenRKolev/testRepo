@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class Main {
     
     public static void main(String[] args) throws IOException {
     	System.out.println("START");
@@ -15,7 +15,7 @@ public class Solution {
         int level = Integer.parseInt(tokens[1]);
         
         
-        List<String> lines = Result.extractData(content.replace("\\n", "\n"), level);
+        List<String> lines = Extractor.extractData(content.replace("\\n", "\n"), level);
         List<String> finalLines = new ArrayList<>(); 
         for(String line: lines) {
             finalLines.add(line.trim());
